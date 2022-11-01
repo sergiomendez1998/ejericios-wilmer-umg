@@ -246,7 +246,7 @@ mysqli_close($conn);
                                
                             
                             <label for="username">Username</label>
-                            <input  readonly="readonly" type="text" class="form-control" id="username" name="username" value="<?php 
+                            <input  type="text" class="form-control" id="username" name="username" value="<?php 
                             
                             echo $usuario['username'];
 

@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost:33060";
-$database = "biblio_docker";
+$servername = "localhost:3306";
+$database = "tarea_final";
 $username = "root";
-$password = "root";
+$password = "";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
